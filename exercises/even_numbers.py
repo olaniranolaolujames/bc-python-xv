@@ -5,6 +5,6 @@ def even_numbers(num1, num2):
 		return "Input only integers"
 	list_of_even_nums = []
 	for i in range(num1, num2+1 ):
-		if i%2 =0:
+		if i%2 == 0:
 			list_of_even_nums.append(i)
 	return list_of_even_nums
